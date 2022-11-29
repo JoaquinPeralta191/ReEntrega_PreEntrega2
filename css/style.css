@@ -1,0 +1,266 @@
+#fondo {
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    position: relative;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+}
+
+.titulo{
+    color: white;
+    bottom: -39.2rem;
+    position: relative;
+    z-index: 2;
+    font-style: italic;
+    background: grey;
+    opacity: 0.9;
+    
+}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.3;
+    font-size: 1.3rem;
+}
+
+p{
+    padding: 0.5rem;
+}
+
+h1{
+    margin-left: 0.5rem;
+    font-size: 4.4rem;
+}
+
+.fondo{
+    background: #FFD384;
+    border-radius: 0.5rem;
+    border-style: groove;
+    border-color: black;
+    margin: 0.4rem;
+    text-align: center;
+}
+.cabecera{
+    background: #FF577F;
+    border-bottom: black;
+    border-style: groove;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+
+.borde-boton{
+    border: 3.5px solid black;
+    background-color: none;
+    box-shadow: none;
+}
+
+.pie-de-pagina{
+    background: #FF577F;
+    border-top: black;
+    border-style: groove;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 0.2rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+i{
+    font-size: 2rem;
+    color: black;
+    justify-content: space-between;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.texto-pieDePagina{
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.titulo_2{
+    font-style: italic;
+    margin: 2rem;
+    text-align: center;
+}
+/* CSS de Conoce a los Jojos's*/
+
+/*CSS de Amistades*/
+.galeria{
+    margin: 0rem;
+    padding: 0;
+}
+
+.galeria-fondo{
+    padding: 0.25rem;
+    background-color: #FF884B;
+    border-color: black;
+    border-radius: 0.25rem;
+    border-style: groove;
+    margin-bottom: 0.5rem;
+  }
+
+.img-galeria{
+    width: 100%;
+    border-style: groove;
+    border-color: black;
+}
+
+.subtitulo{
+    font-size: 2.8rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.texto-galeria{
+    text-align: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+}
+/*CSS de Amenazas*/
+
+/*CSS de Contacto*/
+.img-yo{
+    background-color: #FFD384;
+    border-style: groove;
+    border-color: black;
+}
+
+.subtitulo_2{
+    background: #FF577F;
+    object-fit: contain;
+    opacity: 0.2rem;
+    border: black;
+    border-style: groove;
+    border-left: none;
+    border-right: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.img-contacto{
+    margin-left: none;
+    margin-right: none;
+    --bs-gutter-x: none;
+}
+
+.formulario{
+    margin-left: 0.5rem;
+    background: #FF577F;
+    border-style: groove;
+    border-color: black;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 50%;
+
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.cont-form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    width: 100%;
+}
+
+.form-text{
+    color: rgb(61, 61, 61);
+    font-size: 0.75rem;
+}
+
+.form-check-input:focus {
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  }
+  
+.form-check-input:checked {
+    background-color:#FFD384;
+    border-color:#FFD384;
+}
+  
+.btn-primary {
+    color: black;
+    background-color:#FFD384;
+    border-color:#FFD384;
+    width: 100%;
+    border-style: groove;
+    border-color: black;
+}
+  
+.btn-primary:hover {
+    color: black;
+    background-color:#f8c360;
+    border-color:#f8c360;
+    border-style: groove;
+    border-color: black;
+}
+  
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: black;
+    background-color:#f8c360;
+    border-color:#f8c360;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.form-check-input:focus {
+    border-color: #000000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  }
+
+  .form-check-input:checked {
+    background-color: #f8c360;
+    border-color: #f8c360;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #000000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  }
